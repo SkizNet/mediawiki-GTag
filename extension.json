@@ -1,0 +1,47 @@
+{
+  "name": "GTag",
+  "namemsg": "gtag-extensionname",
+  "version": "1.0.0",
+  "author": [
+	"Ryan Schmidt"
+  ],
+  "url": "https://mwusers.org",
+  "license-name": "MIT",
+  "descriptionmsg": "gtag-desc",
+  "type": "other",
+  "config": {
+	"GTagAnalyticsId": {
+	  "value": "",
+	  "description": "Google Analytics account ID (UA-xxxxxxxx-x)",
+	  "decriptionmsg": "gtag-config-analyticsid"
+	},
+	"GTagHonorDNT": {
+	  "value": true,
+	  "description": "Honor the DNT header indicating a user does not wish to be tracked",
+	  "decriptionmsg": "gtag-config-honordnt"
+	},
+	"GTagTrackSensitivePages": {
+	  "value": true,
+	  "description": "Include tracking code on potentially sensitive pages such a UserLogin and Preferences",
+	  "decriptionmsg": "gtag-config-tracksensitivepages"
+	}
+  },
+  "Hooks": {
+	"BeforePageDisplay": "GTagHooks::onBeforePageDisplay"
+  },
+  "AvailableRights": [
+	"gtag-exempt"
+  ],
+  "MessagesDirs": {
+	"GTag": [
+	  "i18n"
+	]
+  },
+  "AutoloadClasses": {
+	"GTagHooks": "GTagHooks.php"
+  },
+  "requires": {
+	"MediaWiki": ">= 1.34.0"
+  },
+  "manifest_version": 2
+}

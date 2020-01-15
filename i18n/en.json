@@ -1,0 +1,13 @@
+{
+  "@metadata": {
+	"authors": [
+	  "Ryan Schmidt"
+	]
+  },
+  "gtag-extensionname": "GTag",
+  "gtag-desc": "Google Analytics Tracking",
+  "gtag-config-analyticsid": "Google Analytics account ID (UA-xxxxxxxx-x)",
+  "gtag-config-honordnt": "Honor the DNT header indicating a user does not wish to be tracked",
+  "gtag-config-tracksensitivepages": "Include tracking code on potentially sensitive pages such a UserLogin and Preferences",
+  "right-gtag-exempt": "Not be tracked by Google Analytics"
+}
