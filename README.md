@@ -32,7 +32,7 @@ to your LocalSettings.php file.
 | -------- | ------- | ----------- |
 | `$wgGTagAnalyticsId` | _none_ | Google Analytics Id, for example `'UA-123456789-1'`. Required. |
 | `$wgGTagHonorDNT` | `true` | If true, honor "Do Not Track" requests from browsers. If false, ignore such requests. |
-| `$wgGTagTrackSensitivePages` | `true` | If true, insert tracking code sensitive pages such as Special:UserLogin and Special:Preferences. If false, no tracking code is added to these pages. |
+| `$wgGTagTrackSensitivePages` | `true` | If true, insert tracking code into sensitive pages such as Special:UserLogin and Special:Preferences. If false, no tracking code is added to these pages. |
 
 In addition to these configuration variables, you may assign the
 right `gtag-exempt` to user groups to prevent them from being
