@@ -11,7 +11,7 @@ class GTagHooks {
 
 		$gaId = $config->get('GTagAnalyticsId');
 		$honorDNT = $config->get('GTagHonorDNT');
-		$trackSensitive = $config->get('GTagTrackSensitivePage');
+		$trackSensitive = $config->get('GTagTrackSensitivePages');
 
 		if ($gaId === '' || !preg_match('/^UA-[0-9]+-[0-9]+$/', $gaId)) {
 			// extension not configured yet or invalid configuration, no-op
