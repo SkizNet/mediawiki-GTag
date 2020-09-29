@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"gtag-extensionname": "{{name}}",
+	"gtag-desc": "{{desc|name=GTag|url=https://www.mediawiki.org/wiki/Extension:GTag}}",
+	"gtag-config-analyticsid": "{{optional}} Description of the configuration variable $wgGTagAnalyticsId. This message is not exposed to users.",
+	"gtag-config-anonymizeip": "{{optional}} Description of the configuration variable $wgGTagAnonymizeIP. This message is not exposed to users.",
+	"gtag-config-honordnt": "{{optional}} Description of the configuration variable $wgGTagHonorDNT. This message is not exposed to users.",
+	"gtag-config-tracksensitivepages": "{{optional}} Description of the configuration variable $wgGTagTrackSensitivePages. This message is not exposed to users.",
+	"right-gtag-exempt": "{{doc-right|gtag-exempt}}"
+}
