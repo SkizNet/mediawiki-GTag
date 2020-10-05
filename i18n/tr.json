@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"gtag-extensionname": "GTag",
+	"gtag-desc": "Google Analytics İzleme",
+	"gtag-config-analyticsid": "Google Analytics hesap kimliği (UA-xxxxxxxx-x)",
+	"gtag-config-anonymizeip": "Google Analytics'e gönderilen IP adreslerini anonimleştirin",
+	"gtag-config-honordnt": "Bir kullanıcının izlenmek istemediğini belirten DNT başlığına uyun",
+	"gtag-config-tracksensitivepages": "İzleme kodunu, UserLogin ve Tercihler gibi potansiyel olarak hassas sayfalara dahil edin",
+	"right-gtag-exempt": "Google Analytics tarafından izlenmez"
+}

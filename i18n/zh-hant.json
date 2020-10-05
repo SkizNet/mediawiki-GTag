@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"gtag-extensionname": "GTag",
+	"gtag-desc": "Google 分析追蹤",
+	"gtag-config-analyticsid": "Google 分析帳號 ID（UA-xxxxxxxx-x）",
+	"gtag-config-anonymizeip": "發送給 Google 分析的匿名 IP 位址",
+	"gtag-config-honordnt": "允准 DNT 標頭，指示使用者不希望被追蹤",
+	"gtag-config-tracksensitivepages": "在潛在敏感的頁面上包含追蹤代碼，例如像是 UserLogin 和 Preferences",
+	"right-gtag-exempt": "不要透過 Google 分析追蹤"
+}
