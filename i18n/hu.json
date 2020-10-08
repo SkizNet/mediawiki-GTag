@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos"
+		]
+	},
+	"gtag-desc": "Google Analytics követés",
+	"gtag-config-anonymizeip": "Google Analyticsnak küldött IP-címek anonimizálása",
+	"right-gtag-exempt": "Ne kövessen a Google Analytics"
+}
