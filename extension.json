@@ -1,7 +1,7 @@
 {
   "name": "GTag",
   "namemsg": "gtag-extensionname",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": [
 	"Ryan Schmidt"
   ],
@@ -12,7 +12,7 @@
   "config": {
 	"GTagAnalyticsId": {
 	  "value": "",
-	  "description": "Google Analytics account ID (UA-xxxxxxxx-x)",
+	  "description": "Google Analytics account ID (UA-xxxxxxxx-x or G-xxxxxxxx)",
 	  "decriptionmsg": "gtag-config-analyticsid"
 	},
 	"GTagAnonymizeIP": {
@@ -27,7 +27,7 @@
 	},
 	"GTagTrackSensitivePages": {
 	  "value": true,
-	  "description": "Include tracking code on potentially sensitive pages such a UserLogin and Preferences",
+	  "description": "Include tracking code on potentially sensitive pages such as UserLogin and Preferences",
 	  "decriptionmsg": "gtag-config-tracksensitivepages"
 	}
   },

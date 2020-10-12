@@ -20,7 +20,7 @@ class GTagHooks {
 		$honorDNT = $config->get( 'GTagHonorDNT' );
 		$trackSensitive = $config->get( 'GTagTrackSensitivePages' );
 
-		if ( $gaId === '' || !preg_match( '/^UA-[0-9]+-[0-9]+$/', $gaId ) ) {
+		if ( $gaId === '' || !preg_match( '/^(UA-[0-9]+-[0-9]+|G-[0-9A-Z]+)$/', $gaId ) ) {
 			// extension not configured yet or invalid configuration, no-op
 			return;
 		}
