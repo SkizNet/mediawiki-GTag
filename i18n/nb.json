@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"gtag-extensionname": "GTag",
+	"gtag-desc": "Google Analytics-sporing",
+	"gtag-config-analyticsid": "Google Analytics-konto-ID (UA-xxxxxxxx-x)",
+	"gtag-config-anonymizeip": "Anonymiser IP-adresser som sendes til Google Analytics",
+	"gtag-config-honordnt": "Respekter DNT-headeren som sier at brukeren ikke ønsker å bli sporet",
+	"gtag-config-tracksensitivepages": "Inkluder sporingskode på potensielt sensitive sider som UserLogin og Preferences",
+	"right-gtag-exempt": "Spores ikke av Google Analytics"
+}
