@@ -6,7 +6,7 @@
 	},
 	"gtag-extensionname": "GTag",
 	"gtag-desc": "Rastreamento do Google Analytics",
-	"gtag-config-analyticsid": "ID da conta do Google Analytics (UA-xxxxxxxx-x)",
+	"gtag-config-analyticsid": "ID da conta do Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Tornar anônimos os endereços IP enviados ao Google Analytics",
 	"gtag-config-honordnt": "Respeite o cabeçalho DNT indicando que um usuário não deseja ser rastreado",
 	"gtag-config-tracksensitivepages": "Inclua o código de rastreamento em páginas potencialmente confidenciais, como UserLogin e Preferências",
