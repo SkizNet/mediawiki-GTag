@@ -6,7 +6,7 @@
 		]
 	},
 	"gtag-extensionname": "GTag",
-	"gtag-desc": "Trace de Google Analytics",
+	"gtag-desc": "Traçage de Google Analytics",
 	"gtag-config-analyticsid": "ID de compte de Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymiser les adresses IP envoyés à Google Analytics",
 	"gtag-config-honordnt": "Respecter l’entête DNT indiquant qu’un utilisateur ne veut pas être suivi",
