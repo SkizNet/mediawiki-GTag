@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Malikxan",
 			"Zafar Shamsiddinov"
 		]
 	},
 	"gtag-config-anonymizeip": "Anonim IP manzilni Google Analytics’ga jo‘natish",
-	"gtag-config-tracksensitivepages": "«UserLogin» va «Preferences» kabi potentsial shaxsiy sahifalarga kuzatuv kodini kiriting"
+	"gtag-config-tracksensitivepages": "„UserLogin“ va „Moslamalar“ kabi potentsial shaxsiy sahifalarga kuzatuv kodini kiriting"
 }
