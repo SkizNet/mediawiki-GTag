@@ -5,7 +5,6 @@
 			"Ice bulldog"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "Відстеження Google Analytics",
 	"gtag-config-analyticsid": "Ідентифікатор облікового запису Google Analytics (UA-xxxxxxxx-x або G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Анонімізуйте IP-адреси, надіслані до Google Analytics",

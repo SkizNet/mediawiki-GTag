@@ -4,7 +4,6 @@
 			"Jon Harald Søby"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "Google Analytics-sporing",
 	"gtag-config-analyticsid": "Google Analytics-konto-ID (UA-xxxxxxxx-x eller G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymiser IP-adresser som sendes til Google Analytics",

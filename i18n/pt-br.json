@@ -5,7 +5,6 @@
 			"Eduardoaddad"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "Rastreamento do Google Analytics",
 	"gtag-config-analyticsid": "ID da conta do Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Tornar anônimos os endereços IP enviados ao Google Analytics",

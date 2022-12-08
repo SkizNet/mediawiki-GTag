@@ -5,7 +5,6 @@
 			"Tr jason"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "谷歌统计追踪",
 	"gtag-config-analyticsid": "谷歌分析账户 ID（UA-xxxxxxxx-x 或 G-xxxxxxxx）",
 	"gtag-config-anonymizeip": "匿名化发送到谷歌分析的 IP 地址",

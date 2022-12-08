@@ -4,7 +4,6 @@
 			"Bjankuloski06"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "Следење со Google Аналитика",
 	"gtag-config-analyticsid": "Назнака на сметката на Google Аналитика (UA-xxxxxxxx-x или G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Анонимизирај ги IP-адресите што му се испраќаат на Google Аналитика",

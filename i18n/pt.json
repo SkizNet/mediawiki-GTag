@@ -4,7 +4,6 @@
 			"Hamilton Abreu"
 		]
 	},
-	"gtag-extensionname": "GTag",
 	"gtag-desc": "Monitorização Google Analytics",
 	"gtag-config-analyticsid": "Identificador da conta do Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonimizar os endereços IP enviados ao Google Analytics",
