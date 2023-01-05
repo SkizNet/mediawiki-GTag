@@ -5,6 +5,7 @@
 			"Verdy p"
 		]
 	},
+	"gtag-extensionname": "GTag",
 	"gtag-desc": "Traçage de Google Analytics",
 	"gtag-config-analyticsid": "Identifiant de compte Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymiser les adresses IP envoyés à Google Analytics",
