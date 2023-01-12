@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"gtag-desc": "Traciamento de Google Analytics",
+	"gtag-config-analyticsid": "ID del conto de Google Analytics (UA-xxxxxxxx-x or G-xxxxxxxx)",
+	"gtag-config-anonymizeip": "Anonymisar adresses IP inviate a Google Analytics",
+	"gtag-config-honordnt": "Honorar le capite DNT que indica que un usator non desira esser traciate.",
+	"gtag-config-tracksensitivepages": "Includer codice de traciamento in paginas potentialmente sensibile como UserLogin e Preferences",
+	"right-gtag-exempt": "Non esser traciate per Google Analytics"
+}

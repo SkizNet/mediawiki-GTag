@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"gtag-desc": "Sledenje Google Analitike",
+	"gtag-config-analyticsid": "ID računa Google Analitike (UA-xxxxxxxxx-x ali G-xxxxxxxx)",
+	"gtag-config-anonymizeip": "Anonimiziraj IP-naslovov, poslanih Google Analitiki",
+	"gtag-config-honordnt": "Upoštevaj glavo DNT, ki označuje, da uporabnik ne želi biti sleden",
+	"gtag-config-tracksensitivepages": "Vključi kodo za sledenje na potencialno občutljivih straneh, kot sta UserLogin in Preferences",
+	"right-gtag-exempt": "Izognitev sledenju z Google Analitiko"
+}
