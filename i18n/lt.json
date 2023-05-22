@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"gtag-desc": "Google Analytics stebėjimas",
+	"gtag-config-analyticsid": "Google Analytics paskyros ID (UA-xxxxxxxx-x arba G-xxxxxxxx)",
+	"gtag-config-anonymizeip": "Anonimizuoti IP adresus, siunčiamus į Google Analytics",
+	"gtag-config-tracksensitivepages": "Įtraukite stebėjimo kodą į galimai jautrius puslapius, pvz., prisijungimo ar nustatymų puslapį.",
+	"right-gtag-exempt": "Nebus stebimas Google Analytics"
+}
