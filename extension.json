@@ -1,7 +1,7 @@
 {
   "name": "GTag",
   "namemsg": "gtag-extensionname",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": [
 	"Ryan Schmidt"
   ],
@@ -19,6 +19,11 @@
 	  "value": false,
 	  "description": "Anonymize IP addresses sent to Google Analytics",
 	  "descriptionmsg": "gtag-config-anonymizeip"
+	},
+	"GTagEnableTCF": {
+	  "value": false,
+	  "description": "Enable support for the IAB Transparency & Consent Framework",
+	  "descriptionmsg": "gtag-config-enabletcf"
 	},
 	"GTagHonorDNT": {
 	  "value": true,
@@ -46,7 +51,7 @@
 	"GTagHooks": "GTagHooks.php"
   },
   "requires": {
-	"MediaWiki": ">= 1.34.0"
+	"MediaWiki": ">= 1.35.0"
   },
   "manifest_version": 2
 }

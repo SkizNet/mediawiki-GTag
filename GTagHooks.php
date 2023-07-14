@@ -18,6 +18,7 @@ class GTagHooks {
 		$gaId = $config->get( 'GTagAnalyticsId' );
 		$anonymizeIP = $config->get( 'GTagAnonymizeIP' );
 		$honorDNT = $config->get( 'GTagHonorDNT' );
+		$enableTCF = $config->get( 'GTagEnableTCF' );
 		$trackSensitive = $config->get( 'GTagTrackSensitivePages' );
 
 		if ( $gaId === '' || !preg_match( '/^(UA-[0-9]+-[0-9]+|G-[0-9A-Z]+)$/', $gaId ) ) {
@@ -67,15 +68,21 @@ class GTagHooks {
 			$gtConfigJson = '{}';
 		}
 
+		if ( $enableTCF ) {
+			$tcfLine = 'window["gtag_enable_tcf_support"] = true;';
+		} else {
+			$tcfLine = '';
+		}
+
 		// If we get here, the user should be tracked
-		// FIXME: getCSPNonce is deprecated in 1.35+. Once we drop 1.34 support, change this
 		$out->addScript( Html::element( 'script', [
 			'src' => "https://www.googletagmanager.com/gtag/js?id=$gaId",
 			'async' => true,
-			'nonce' => $out->getCSPNonce()
+			'nonce' => $out->getCSP()->getNonce()
 		] ) );
 		$out->addInlineScript( <<<EOS
 window.dataLayer = window.dataLayer || [];
+$tcfLine
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '$gaId', $gtConfigJson);

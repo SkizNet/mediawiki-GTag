@@ -8,6 +8,7 @@
 	"gtag-desc": "Google Analytics Tracking",
 	"gtag-config-analyticsid": "Google Analytics account ID (UA-xxxxxxxx-x or G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymize IP addresses sent to Google Analytics",
+	"gtag-config-enabletcf": "Enable support for the IAB Transparency & Consent Framework",
 	"gtag-config-honordnt": "Honor the DNT header indicating a user does not wish to be tracked",
 	"gtag-config-tracksensitivepages": "Include tracking code on potentially sensitive pages such as UserLogin and Preferences",
 	"right-gtag-exempt": "Not be tracked by Google Analytics"
