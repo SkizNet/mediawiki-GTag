@@ -7,6 +7,7 @@
 	"gtag-desc": "Monitorização Google Analytics",
 	"gtag-config-analyticsid": "Identificador da conta do Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Anonimizar os endereços IP enviados ao Google Analytics",
+	"gtag-config-enabletcf": "Ativar o suporte da Estrutura de Transparência e Consentimento do IAB",
 	"gtag-config-honordnt": "Respeitar o cabeçalho DNT indicando que um utilizador não deseja ser monitorizado",
 	"gtag-config-tracksensitivepages": "Incluir código de monitorização em páginas possivelmente sensíveis tais como a do início de sessão e a das preferências",
 	"right-gtag-exempt": "Não ser seguido pelo Google Analytics"
