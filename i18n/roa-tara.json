@@ -7,6 +7,7 @@
 	"gtag-desc": "Google Analytics Tracking",
 	"gtag-config-analyticsid": "ID d'u cunde Google Analytics (UA-xxxxxxxx-x o G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "Le indirizze IP anonimizzate avènene mannate a Google Analytics",
+	"gtag-config-enabletcf": "Abbilite 'u supporte pu strumende IAB Transparency & Consent",
 	"gtag-config-honordnt": "Rispette 'a 'ndestazione DNT ca dice ca 'n'utende non ge vole essere tracciate",
 	"gtag-config-tracksensitivepages": "'Nglude 'u codece de tracciamende jndr'à le pàggene putenzialmende sensibbele cumme UserLogin e Preferenze",
 	"right-gtag-exempt": "Non essere tracciate da Google Analytics"
