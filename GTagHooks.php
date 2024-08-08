@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\ResourceLoader\Module;
 
 class GTagHooks {
 	/**
@@ -28,8 +29,8 @@ class GTagHooks {
 
 		// Determine if this is a sensitive page and we should not track it.
 		if ( !$trackSensitive ) {
-			$allowed = $out->getAllowedModules( ResourceLoaderModule::TYPE_SCRIPTS );
-			if ( $allowed < ResourceLoaderModule::ORIGIN_USER_SITEWIDE ) {
+			$allowed = $out->getAllowedModules( Module::TYPE_SCRIPTS );
+			if ( $allowed < Module::ORIGIN_USER_SITEWIDE ) {
 				// the current page is not allowing user-editable modules and we
 				// are configured to not track sensitive pages
 				return;
