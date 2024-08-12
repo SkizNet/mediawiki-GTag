@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"gtag-desc": "Volgen met Google Analytics",
+	"gtag-config-analyticsid": "ID account Google Analytics (UA-xxxxxxxx-x of G-xxxxxxxx)",
+	"gtag-config-anonymizeip": "De IP-adressen die naar Google Analytics worden verzonden anonymiseren",
+	"gtag-config-enabletcf": "Ondersteuning van het IAB-framework voor transparantie en toestemming inschakelen",
+	"gtag-config-honordnt": "De DNT-header, die aangeeft dat een gebruiker niet gevolgd wil worden, in acht nemen",
+	"gtag-config-tracksensitivepages": "Volgcode invoegen op potentieel gevoelige pagina’s zoals UserLogin en Preferences",
+	"right-gtag-exempt": "Niet gevolgd worden door Google Analytics"
+}
