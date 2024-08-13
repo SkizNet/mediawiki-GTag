@@ -2,7 +2,7 @@
 
 use MediaWiki\MediaWikiServices;
 
-class GTagHooks {
+class ShynetHooks {
 	/**
 	 * Add tracking js to page
 	 *
@@ -41,12 +41,11 @@ class GTagHooks {
 			'nonce' => $out->getCSP()->getNonce()
 		] ) );
 		$out->addInlineScript( <<<EOS
-window.dataLayer = window.dataLayer || [];
-$tcfLine
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '$shynetId', $gtConfigJson);
-EOS
-);
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '$shynetId', $gtConfigJson);
+			EOS
+		);
 	}
 }

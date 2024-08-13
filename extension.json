@@ -13,10 +13,10 @@
     }
   },
   "Hooks": {
-    "BeforePageDisplay": "GTagHooks::onBeforePageDisplay"
+    "BeforePageDisplay": "ShynetHooks::onBeforePageDisplay"
   },
   "AutoloadClasses": {
-    "ShynetHooks": "SheynetHooks.php"
+    "ShynetHooks": "ShynetHooks.php"
   },
   "requires": {
     "MediaWiki": ">= 1.35.0"
