@@ -2,12 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"StarHeart",
-			"Tr jason"
+			"Tr jason",
+			"沈澄心"
 		]
 	},
 	"gtag-desc": "谷歌统计追踪",
 	"gtag-config-analyticsid": "谷歌分析账户 ID（UA-xxxxxxxx-x 或 G-xxxxxxxx）",
 	"gtag-config-anonymizeip": "匿名化发送到谷歌分析的 IP 地址",
+	"gtag-config-enabletcf": "启用对IAB透明度与同意框架的支持",
+	"gtag-config-honordnt": "遵守表明用户不希望被跟踪的DNT标头",
 	"gtag-config-tracksensitivepages": "在可能敏感的页面上包含跟踪代码，例如 UserLogin 和 Preferences",
 	"right-gtag-exempt": "不由谷歌分析跟踪"
 }
