@@ -8,6 +8,7 @@
 	"gtag-desc": "تتبع تحليلات جوجل",
 	"gtag-config-analyticsid": "معرّف حساب Google Analytics (UA-xxxxxxxx-x أو G-xxxxxxxx)",
 	"gtag-config-anonymizeip": "إخفاء هوية عناوين IP المرسلة إلى Google Analytics",
+	"gtag-config-enabletcf": "تمكين الدعم لإطار الشفافية والموافقة الخاص بـ IAB",
 	"gtag-config-honordnt": "قم بتكريم رأس DNT الذي يشير إلى أن المستخدم لا يرغب في أن يتم تعقبه",
 	"gtag-config-tracksensitivepages": "قم بتضمين شفرة التتبع في الصفحات التي يُحتمل أن تكون حساسة مثل UserLogin و Preferences",
 	"right-gtag-exempt": "لا يتم تتبعها بواسطة Google Analytics"
