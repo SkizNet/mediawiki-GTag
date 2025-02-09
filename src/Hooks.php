@@ -13,6 +13,9 @@ class Hooks implements BeforePageDisplayHook {
 	/** @var PermissionManager */
 	private PermissionManager $permissionManager;
 
+	/**
+	 * @param PermissionManager $permissionManager
+	 */
 	public function __construct( PermissionManager $permissionManager ) {
 		$this->permissionManager = $permissionManager;
 	}
@@ -97,7 +100,6 @@ class Hooks implements BeforePageDisplayHook {
 				$this->setupGtag( $gaId, $tcfLine, $gtConfigJson, $out );
 				break;
 		}
-
 	}
 
 	/**
