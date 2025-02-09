@@ -5,21 +5,16 @@ tracking tag on your MediaWiki site (gtag.js).
 
 ## Requirements
 
-- MediaWiki 1.34 or later
+- MediaWiki 1.39 or later
 
 ## Installation
 
-[Download the file from mwusers.org](https://mwusers.org/files/file/4-gtag/)
-(a free account is required) and extract the file to your
-extensions directory. We recommend that you "follow" the
-download so that you are notified of new updates via email
-when they are released.
+[Download the extension][1] and extract it to your wiki's `extensions/` directory.
 
-To install the extension, add the following to your
-LocalSettings.php file:
+To install the extension, add the following to your LocalSettings.php file:
 ```php
 wfLoadExtension( 'GTag' );
-$wgGTagAnalyticsId = 'UA-XXXXXXXX-X'; // replace with your GA id
+$wgGTagAnalyticsId = 'GT-XXXXXXXX'; // replace with your GA id or GTM id
 ```
 
 ## Configuration
@@ -28,11 +23,13 @@ In addition to the required `$wgGTagAnalyticsId`, this extension
 features many optional configuration variables that you may add
 to your LocalSettings.php file.
 
-| Variable | Default | Description |
-| -------- | ------- | ----------- |
-| `$wgGTagAnalyticsId` | _none_ | Google Analytics Id, for example `'UA-123456789-1'`. Required. |
-| `$wgGTagHonorDNT` | `true` | If true, honor "Do Not Track" requests from browsers. If false, ignore such requests. |
-| `$wgGTagTrackSensitivePages` | `true` | If true, insert tracking code into sensitive pages such as Special:UserLogin and Special:Preferences. If false, no tracking code is added to these pages. |
+| Variable                     | Default | Description                                                                                                                                               |
+|------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `$wgGTagAnalyticsId`         | _none_  | Google Analytics ID or Google Tag Manager container ID, for example `'GT-NNVDXRX5'` or `'GTM-MG9RFZQQ'`. Required.                                        |
+| `$wgGTagAnonymizeIP`         | `false` | If true, anonymize IP addresses sent to Google Analytics. Ignored when operating in Google Tag Manager mode.                                              |
+| `$wgGTagEnableTCF`           | `false` | If true, enable support for the IAB Transparency & Consent Framework. Ignored when operating in Google Tag Manager mode.                                  |
+| `$wgGTagHonorDNT`            | `false` | If true, honor "Do Not Track" requests from browsers. If false, ignore such requests. Ignored when operating in Google Tag Manager mode.                  |
+| `$wgGTagTrackSensitivePages` | `true`  | If true, insert tracking code into sensitive pages such as Special:UserLogin and Special:Preferences. If false, no tracking code is added to these pages. |
 
 In addition to these configuration variables, you may assign the
 right `gtag-exempt` to user groups to prevent them from being
@@ -45,6 +42,11 @@ $wgGroupPermissions['sysop']['gtag-exempt'] = true;
 
 ## Support
 
-Free community support is available on the mwusers.org forums.
-[Paid support plans](https://mwusers.org/store/category/2-mediawiki-support-subscriptions/)
-are available as well.
+- For general community support questions, please make use of the [talk page on mediawiki.org][2].
+- For bug reports, [open an issue on GitHub][3].
+- [Paid support plans][4] are available for private support and a guaranteed SLA.
+
+[1]: https://github.com/SkizNet/mediawiki-GTag/archive/refs/heads/master.zip
+[2]: https://www.mediawiki.org/wiki/Extension_talk:GTag
+[3]: https://github.com/SkizNet/mediawiki-GTag/issues
+[4]: https://store.skizzerz.net/store/mediawiki-support

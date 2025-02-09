@@ -21,9 +21,11 @@ jobs:
         php: [ '8.1', '8.2', '8.3', '8.4' ]
         mediawiki: [ REL1_43, master ]
         include:
-          - php: '7.4'
+          - os: ubuntu-latest
+            php: '7.4'
             mediawiki: REL1_39
-          - php: '8.0'
+          - os: ubuntu-latest
+            php: '8.0'
             mediawiki: REL1_39
     steps:
       - name: Setup PHP
@@ -63,10 +65,12 @@ jobs:
         target: [ '8.1' ]
         mediawiki: [ REL1_43, master ]
         include:
-          - php: '7.4'
+          - os: ubuntu-latest
+            php: '7.4'
             target: '7.4'
             mediawiki: REL1_39
-          - php: '8.0'
+          - os: ubuntu-latest
+            php: '8.0'
             target: '7.4'
             mediawiki: REL1_39
         exclude:
