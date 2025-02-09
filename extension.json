@@ -1,57 +1,65 @@
 {
-  "name": "GTag",
-  "namemsg": "gtag-extensionname",
-  "version": "1.3.0",
-  "author": [
-	"Ryan Schmidt"
-  ],
-  "url": "https://mwusers.org/files/file/4-gtag/",
-  "license-name": "MIT",
-  "descriptionmsg": "gtag-desc",
-  "type": "other",
-  "config": {
-	"GTagAnalyticsId": {
-	  "value": "",
-	  "description": "Google Analytics account ID (UA-xxxxxxxx-x or G-xxxxxxxx)",
-	  "decriptionmsg": "gtag-config-analyticsid"
+	"name": "GTag",
+	"namemsg": "gtag-extensionname",
+	"version": "1.4.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GTag",
+	"license-name": "MIT",
+	"descriptionmsg": "gtag-desc",
+	"type": "other",
+	"config": {
+		"GTagAnalyticsId": {
+			"value": "",
+			"description": "Google Analytics account ID (GT-xxxxxxx or GTM-xxxxxxx)",
+			"decriptionmsg": "gtag-config-analyticsid"
+		},
+		"GTagAnonymizeIP": {
+			"value": false,
+			"description": "Anonymize IP addresses sent to Google Analytics",
+			"descriptionmsg": "gtag-config-anonymizeip"
+		},
+		"GTagEnableTCF": {
+			"value": false,
+			"description": "Enable support for the IAB Transparency & Consent Framework",
+			"descriptionmsg": "gtag-config-enabletcf"
+		},
+		"GTagHonorDNT": {
+			"value": false,
+			"description": "Honor the DNT header indicating a user does not wish to be tracked",
+			"decriptionmsg": "gtag-config-honordnt"
+		},
+		"GTagTrackSensitivePages": {
+			"value": true,
+			"description": "Include tracking code on potentially sensitive pages such as UserLogin and Preferences",
+			"decriptionmsg": "gtag-config-tracksensitivepages"
+		}
 	},
-	"GTagAnonymizeIP": {
-	  "value": false,
-	  "description": "Anonymize IP addresses sent to Google Analytics",
-	  "descriptionmsg": "gtag-config-anonymizeip"
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\GTag\\Hooks",
+			"services": [
+				"PermissionManager"
+			]
+		}
 	},
-	"GTagEnableTCF": {
-	  "value": false,
-	  "description": "Enable support for the IAB Transparency & Consent Framework",
-	  "descriptionmsg": "gtag-config-enabletcf"
+	"Hooks": {
+		"BeforePageDisplay": "main"
 	},
-	"GTagHonorDNT": {
-	  "value": true,
-	  "description": "Honor the DNT header indicating a user does not wish to be tracked",
-	  "decriptionmsg": "gtag-config-honordnt"
+	"AvailableRights": [
+		"gtag-exempt"
+	],
+	"MessagesDirs": {
+		"GTag": [
+			"i18n"
+		]
 	},
-	"GTagTrackSensitivePages": {
-	  "value": true,
-	  "description": "Include tracking code on potentially sensitive pages such as UserLogin and Preferences",
-	  "decriptionmsg": "gtag-config-tracksensitivepages"
-	}
-  },
-  "Hooks": {
-	"BeforePageDisplay": "GTagHooks::onBeforePageDisplay"
-  },
-  "AvailableRights": [
-	"gtag-exempt"
-  ],
-  "MessagesDirs": {
-	"GTag": [
-	  "i18n"
-	]
-  },
-  "AutoloadClasses": {
-	"GTagHooks": "GTagHooks.php"
-  },
-  "requires": {
-	"MediaWiki": ">= 1.35.0"
-  },
-  "manifest_version": 2
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\GTag\\": "src/"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.39.0"
+	},
+	"manifest_version": 2
 }
