@@ -5,7 +5,7 @@
 		]
 	},
 	"gtag-desc": "Traciamento de Google Analytics",
-	"gtag-config-analyticsid": "ID del conto de Google Analytics (UA-xxxxxxxx-x or G-xxxxxxxx)",
+	"gtag-config-analyticsid": "ID del conto de Google Analytics (GT-xxxxxxx o GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymisar adresses IP inviate a Google Analytics",
 	"gtag-config-enabletcf": "Activar supporto pro le infrastructura IAB pro transparentia & consentimento",
 	"gtag-config-honordnt": "Honorar le capite DNT que indica que un usator non desira esser traciate.",

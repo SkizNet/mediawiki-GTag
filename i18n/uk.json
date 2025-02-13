@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
-			"Ice bulldog"
+			"Ice bulldog",
+			"Ата"
 		]
 	},
 	"gtag-desc": "Відстеження Google Analytics",
-	"gtag-config-analyticsid": "Ідентифікатор облікового запису Google Analytics (UA-xxxxxxxx-x або G-xxxxxxxx)",
+	"gtag-config-analyticsid": "Ідентифікатор облікового запису Google Analytics (GT-xxxxxxx або GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Анонімізуйте IP-адреси, надіслані до Google Analytics",
 	"gtag-config-honordnt": "Дотримуйтесь заголовка DNT, який вказує на те, що користувач не бажає відстеження",
 	"gtag-config-tracksensitivepages": "Включіть код відстеження на потенційно чутливі сторінки, такі як UserLogin та Налаштування",

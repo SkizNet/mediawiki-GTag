@@ -5,7 +5,7 @@
 		]
 	},
 	"gtag-desc": "Google Analytics-sporing",
-	"gtag-config-analyticsid": "Google Analytics-konto-ID (UA-xxxxxxxx-x eller G-xxxxxxxx)",
+	"gtag-config-analyticsid": "Google Analytics-konto-ID (GT-xxxxxxx or GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymiser IP-adresser som sendes til Google Analytics",
 	"gtag-config-enabletcf": "Aktiver støtte for IAB Transparency & Consent Framework",
 	"gtag-config-honordnt": "Respekter DNT-headeren som sier at brukeren ikke ønsker å bli sporet",

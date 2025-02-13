@@ -5,7 +5,7 @@
 		]
 	},
 	"gtag-desc": "מעקב של גוגל אנליטיקס",
-	"gtag-config-analyticsid": "מזהה חשבון Google Analytics (UA-xxxxxxxx-x או G-xxxxxxxx)",
+	"gtag-config-analyticsid": "מזהה חשבון Google Analytics (GT-xxxxxxx או GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "להפוך כתובות IP שנשלחות לגוגל אנליטיקס לאלמוניות",
 	"gtag-config-enabletcf": "הפעלת תמיכה עבור IAB Transparency & Consent Framework",
 	"gtag-config-honordnt": "לכבד את כותר ה־DNT שמציין שמשתמש אינו מעוניין במעקב",
