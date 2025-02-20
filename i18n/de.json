@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Justman10000",
 			"Mario-WL",
 			"Umlaut"
 		]
 	},
 	"gtag-desc": "Google Analytics Tracking",
-	"gtag-config-analyticsid": "Google Analytics Konto-ID (UA-xxxxxxxx-x oder G-xxxxxxxx)",
+	"gtag-config-analyticsid": "Google-Analytics-Konto-ID (GT-xxxxxxx oder GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymisierung der an Google Analytics gesendeten IP-Adressen",
 	"gtag-config-enabletcf": "Unterstützung für das IAB Transparency & Consent Framework ermöglichen",
 	"gtag-config-honordnt": "Den DNT-Header beachten, der anzeigt, dass ein Nutzer nicht verfolgt werden möchte",
