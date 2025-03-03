@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"JLTRY",
 			"Verdy p"
 		]
 	},
 	"gtag-extensionname": "GTag",
 	"gtag-desc": "Traçage de Google Analytics",
-	"gtag-config-analyticsid": "Identifiant de compte Google Analytics (UA-xxxxxxxx-x ou G-xxxxxxxx)",
+	"gtag-config-analyticsid": "ID de compte Google Analytics (GT-xxxxxxx ou GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Anonymiser les adresses IP envoyés à Google Analytics",
 	"gtag-config-enabletcf": "Activer le support pour le cadre Transparence et consentement IAB",
 	"gtag-config-honordnt": "Respecter l’entête DNT indiquant qu’un utilisateur ne veut pas être suivi",
