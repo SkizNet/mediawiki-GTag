@@ -1,7 +1,7 @@
 {
 	"name": "GTag",
 	"namemsg": "gtag-extensionname",
-	"version": "1.43.0",
+	"version": "1.4.0",
 	"author": [
 		"Ryan Schmidt"
 	],
@@ -59,7 +59,7 @@
 		"MediaWiki\\Extension\\GTag\\": "src/"
 	},
 	"requires": {
-		"MediaWiki": ">= 1.39.0"
+		"MediaWiki": ">= 1.43.0"
 	},
 	"manifest_version": 2
 }
