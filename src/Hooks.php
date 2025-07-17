@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\GTag;
 
-use Html;
 use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Html\Html;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\ResourceLoader\Module;
 use OutputPage;
