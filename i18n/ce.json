@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"gtag-desc": "Google Analytics лар лелор",
+	"gtag-config-analyticsid": "Google Analytics аккаунтан ID (GT-ххххх йа GTM-ххххх)",
+	"gtag-config-anonymizeip": "Google Analytics чу дӀахьажийна IP-адресаш анонимаш йан",
+	"gtag-config-enabletcf": "ДӀахӀоттайе IAB Transparency & Consent Framework",
+	"gtag-config-honordnt": "DNT корта ларбе, лелочунна тӀаьхьакхиа ца лаар гойтуш"
+}
