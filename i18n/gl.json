@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"gtag-desc": "Seguimento de Google Analytics",
+	"gtag-config-analyticsid": "Identificador da conta de Google Analytics (GT-xxxxxxx ou GTM-xxxxxxx)",
+	"gtag-config-anonymizeip": "Anonimizar os enderezos IP enviados a Google Analytics",
+	"gtag-config-enabletcf": "Activar a compatibilidade co marco de transparencia e consentimento da IAB",
+	"gtag-config-honordnt": "Respectar a cabeceira DNT que indica que un usuario non desexa ser rastrexado",
+	"gtag-config-tracksensitivepages": "Incluír o código de seguimento en páxinas potencialmente sensibles como a páxina de inicio de sesión de usuario e a páxina de preferencias",
+	"right-gtag-exempt": "Non ser rastrexado por Google Analytics"
+}
