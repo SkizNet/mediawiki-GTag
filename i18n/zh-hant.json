@@ -5,7 +5,7 @@
 		]
 	},
 	"gtag-desc": "Google 分析追蹤",
-	"gtag-config-analyticsid": "Google 分析帳號 ID（UA-xxxxxxxx-x 或是 G-xxxxxxxx）",
+	"gtag-config-analyticsid": "Google 分析帳號 ID（GT-xxxxxxx 或是 GTM-xxxxxxx）",
 	"gtag-config-anonymizeip": "發送給 Google 分析的匿名 IP 位址",
 	"gtag-config-enabletcf": "啟用對 IAB 透明度與同意框架的支援",
 	"gtag-config-honordnt": "允准 DNT 標頭，指示使用者不希望被追蹤",
