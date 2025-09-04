@@ -4,11 +4,11 @@
 			"Bjankuloski06"
 		]
 	},
-	"gtag-desc": "Следење со Google Аналитика",
-	"gtag-config-analyticsid": "Назнака на сметката на Google Аналитика (UA-xxxxxxxx-x или G-xxxxxxxx)",
-	"gtag-config-anonymizeip": "Анонимизирај ги IP-адресите што му се испраќаат на Google Аналитика",
+	"gtag-desc": "Следење со Гугл Аналитика",
+	"gtag-config-analyticsid": "Назнака на сметката на Гугл Аналитика (GT-xxxxxxx или GTM-xxxxxxx)",
+	"gtag-config-anonymizeip": "Анонимизирај ги IP-адресите што му се испраќаат на Гугл Аналитика",
 	"gtag-config-enabletcf": "Овозможи поддршка за Рамката за танспарентност и согласнот на IAB",
 	"gtag-config-honordnt": "Почитувај го заглавието кое укажува дека корисникот не сака да биде следен",
 	"gtag-config-tracksensitivepages": "Вклучи кодза следење на потенцијално чувствителни страници како најавата на корисникот и нагодувањата",
-	"right-gtag-exempt": "Неследење од Google Аналитика"
+	"right-gtag-exempt": "Неследење од Гугл Аналитика"
 }
