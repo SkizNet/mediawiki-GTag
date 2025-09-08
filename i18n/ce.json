@@ -8,5 +8,7 @@
 	"gtag-config-analyticsid": "Google Analytics аккаунтан ID (GT-ххххх йа GTM-ххххх)",
 	"gtag-config-anonymizeip": "Google Analytics чу дӀахьажийна IP-адресаш анонимаш йан",
 	"gtag-config-enabletcf": "ДӀахӀоттайе IAB Transparency & Consent Framework",
-	"gtag-config-honordnt": "DNT корта ларбе, лелочунна тӀаьхьакхиа ца лаар гойтуш"
+	"gtag-config-honordnt": "DNT корта ларбе, лелочунна тӀаьхьакхиа ца лаар гойтуш",
+	"gtag-config-tracksensitivepages": "ТӀаьхьакхиаран код йукъайаккха конфиденциаллалин агӀонаш тӀехь, масала, UserLogin а, Preferences а.",
+	"right-gtag-exempt": "Google Analytics-о лар ца йо"
 }
