@@ -1,7 +1,7 @@
 {
 	"name": "GTag",
 	"namemsg": "gtag-extensionname",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"author": [
 		"Ryan Schmidt"
 	],
@@ -22,7 +22,7 @@
 		},
 		"GTagEnableTCF": {
 			"value": false,
-			"description": "Enable support for the IAB Transparency & Consent Framework",
+			"description": "Enable support for the IAB Transparency & Consent Framework. Ignored when CookieConsent is loaded, and when operating in Google Tag Manager mode.",
 			"descriptionmsg": "gtag-config-enabletcf"
 		},
 		"GTagHonorDNT": {
@@ -40,7 +40,8 @@
 		"main": {
 			"class": "MediaWiki\\Extension\\GTag\\Hooks",
 			"services": [
-				"PermissionManager"
+				"PermissionManager",
+				"ExtensionRegistry"
 			]
 		}
 	},
