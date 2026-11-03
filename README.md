@@ -5,7 +5,7 @@ tracking tag on your MediaWiki site (gtag.js).
 
 ## Requirements
 
-- MediaWiki 1.39 or later
+- MediaWiki 1.43 or later
 
 ## Installation
 
